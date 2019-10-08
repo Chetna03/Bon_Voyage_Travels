@@ -1,0 +1,387 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* MY CODE */
+
+*{
+    text-decoration: none;
+}
+
+
+
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+header .trio{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul{
+     margin: 0 auto;
+     display: block;
+     width: fit-content;
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a{
+     font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: #111;
+    
+}
+
+
+@media only screen and (min-width: 1000px){
+     
+   header .trio{
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0px 20px 0px 40px;
+    border-right: 3px solid #111;
+    float: left;
+}
+
+header nav ul{
+     margin: 20px;
+     float: left;
+    }
+
+header nav ul li a{
+    line-height: 60px;
+    text-transform: uppercase;   
+}
+
+
+}
+
+
+/* INDEX */
+
+.index-banner{
+    width: 100%;
+    height: 90vh;
+    background-image: url('images/dark1.jpg');
+    background-repeat: no-repeat;
+    background-position: 53% 0%;
+    background-size: cover;
+    display: table;
+}
+
+.desc-banner{
+    width: 100%;
+    height: 35vh;
+    background-color: #E6E6FA;
+    background-repeat: no-repeat;
+    background-position: 53% 0%;
+    background-size: cover;
+    display: table;
+   
+    padding: 0px;
+}
+
+
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.search-place{
+   /* display: block;*/
+    margin: 2% 0px;
+    text-align: center;
+}
+
+.search-place input{
+    font-size: 20px;
+    padding: 5px; 
+}
+
+.index-banner h2{
+    font-family: 'Noticia Text', serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 40px;
+    padding-bottom: 50px;
+}
+
+.index-banner h1{
+    font-family: 'Noticia Text', serif;
+font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 40px;
+    padding: 20px;
+}
+
+
+.index-links div{
+    margin: 16px 16px 0;
+    width: calc(100%-32px);
+    height: 100px;
+}
+
+.desc-links div{
+    margin: 0px;
+    width: calc(100%-32px);
+    height: 180px;
+}
+
+#paris{
+     background-image: url('images/paris.jpg');
+     background-size: cover;
+    }
+
+#london{
+     background-image: url('images/london.jpg');
+     background-size: cover;
+    }  
+
+#maldives{
+     background-image: url('images/maldives.jpg');
+     background-size: cover;
+    }       
+
+#switz{
+     background-image: url('images/switz.jpg');
+     background-size: cover;
+    }  
+
+
+.index-links div h3{
+    font-family: 'Noticia Text', serif;
+font-family: 'Cormorant', serif;
+    color: #111;
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+    padding: 20px;
+}
+
+.desc-links div h3,h1{
+    font-family: 'Noticia Text', serif;
+font-family: 'Cormorant', serif;
+    color: #111;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding: 15px;
+}
+
+.desc-links div h1{
+    font-size: 18px;
+    color: black;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+
+ .wrapper{
+    width: 1000px;
+    margin: 0 auto;
+ }
+
+   .index-banner{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.index-links{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+  .index-links div{
+    margin: 20px 10px 0;
+   height: 230px;
+   
+    float: left;
+}
+
+.desc-links{
+    padding-bottom: 0px;
+    overflow: hidden;
+  
+}
+
+  .desc-links div{
+    margin: 20px 10px 0;
+   height: 160px;
+  
+    float: left;
+}
+
+}
+
+ .index-boxlink-square{
+   width: calc(25% - 20px);
+   text-align: center;
+}
+
+.index-boxlink-rectangle{
+   width: calc(50% - 20px);
+}
+
+.one{
+ border-radius: 50px;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #111;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+
+footer ul li{
+    display: block;
+    list-style: none;
+
+    }
+
+footer ul li a{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-links-sites{
+   display: none;
+}
+
+.footer-sm{
+    width: 60px;
+    float: right;
+}
+
+.footer-sm img{
+    width: 50px;
+    margin-bottom: 10px;
+}

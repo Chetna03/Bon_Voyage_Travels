@@ -230,7 +230,7 @@ font-family: 'Cormorant Garamond', serif;
 
 .index-links div{
     margin: 16px 16px 0;
-    width: calc(100%-32px);
+    width: calc(100%-12px);
     height: 100px;
 }
 
@@ -238,6 +238,19 @@ font-family: 'Cormorant Garamond', serif;
     margin: 0px;
     width: calc(100%-32px);
     height: 180px;
+}
+
+
+
+.index-links div h3{
+    font-family: 'Noticia Text', serif;
+font-family: 'Cormorant', serif;
+    color: #111;
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+    padding: 20px;
 }
 
 #paris{
@@ -260,16 +273,17 @@ font-family: 'Cormorant Garamond', serif;
      background-size: cover;
     }  
 
+#greece{
+     background-image: url('images/greece.jpg');
+     background-size: cover;
+    } 
 
-.index-links div h3{
-    font-family: 'Noticia Text', serif;
-font-family: 'Cormorant', serif;
-    color: #111;
-    font-size: 28px;
-    text-align: center;
-    line-height: 60px;
-    padding: 20px;
+.index-links #switz h3{
+    color: white;
 }
+
+
+
 
 .desc-links div h3,h1{
     font-family: 'Noticia Text', serif;
@@ -291,7 +305,7 @@ font-family: 'Cormorant', serif;
 @media only screen and (min-width: 1000px){
 
  .wrapper{
-    width: 1000px;
+    width: 1300px;
     margin: 0 auto;
  }
 
@@ -329,7 +343,7 @@ font-family: 'Cormorant', serif;
 }
 
  .index-boxlink-square{
-   width: calc(25% - 20px);
+   width: calc(20% - 20px);
    text-align: center;
 }
 

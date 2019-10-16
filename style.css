@@ -330,11 +330,10 @@ font-family: 'Cormorant', serif;
 .desc-links{
     padding-bottom: 0px;
     overflow: hidden;
-  
 }
 
   .desc-links div{
-    margin: 20px 10px 0;
+    margin: 20px 45px 0;
    height: 160px;
   
     float: left;
